@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+@media (min-width:320px) and (max-width:700px){
+  html{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  body{ 
+            font-family: 'Open Sans', sans-serif;
+            background: var(--gray-color);
+            }
+  header{
+    background-color:var(--gray-color) ;
+  }
+   nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 80%;
+    margin: 131px 0 0 40px;
+    align-items: center;
+   }
+   img{
+    width: 30%;
+   }
+   nav p{
+    font-size: 9px;
+    margin: 0 0 0 30px;
+   }
+   .top-content{
+    margin: 7px 0px 50px 106px;
+    width: 100%;
+   }
+   .top-content h1{
+    width: 54%;
+    font-size: 45px;
+   }
+
+   .Contact{
+    top: -30px;
+    position: relative;
+    background-color: var(--gray-color);
+    z-index: 0;
+    margin-left: 35px;
+    height: 245px;
+    padding-top: 65px;
+  }
+  .top-content ul{
+    margin-top: -2px;
+    position: relative;
+    right: 145px;
+  }
+  .bottom-content{
+    margin: -30px 56px 0 125px;
+    display: block;
+  }
+  .bottom-content p{
+    margin: 0 0 15px 0;
+  }
+  footer{
+    margin-left: 127px;
+    display: block;
+  }
+  footer section h2{
+    font-size: 23px;
+    margin: 25px 100px 25px;
+  }
+  footer section div{
+    
+  margin-bottom:84px;
+  }
+  footer section div h3{
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+  footer section span{
+    margin-bottom: 10px;
+  }
+  footer section div p{
+font-size: 14px;
+margin-bottom: 15px;
+
+  }}
+  @media (min-width:360px)and (max-width:600px){
+    nav {
+      
+      margin: 80px 0 0 40px;
+  }
+  }
+  @media (min-width:414px){
+    nav {
+      
+      margin: 40px 0 0 40px;
+  }
+  
+  }
